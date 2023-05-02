@@ -4,8 +4,6 @@ const button = document.querySelector("button");
 const author = document.querySelector(".author");
 const quote = document.querySelector(".quote");
 
- 
-
 // OLD CODE
 
 // button.addEventListener("click", async () => {
@@ -18,8 +16,6 @@ const quote = document.querySelector(".quote");
 //     })
 //     .catch(alert("Error fetching quote"));
 // });
-
-// OLD CODE
 
 async function getData() {
   try {
